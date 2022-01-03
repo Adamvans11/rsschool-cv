@@ -9,32 +9,36 @@
     <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
+    <header>
     <div class="header">
             <nav class="site-nav">
                 <ul>
-                    <li class="site-nav-iteam"><a href="#about_me">Обо мне</a></li>
-                    <li class="site-nav-iteam"><a href="#skills" >Навыки</a></li>
-                    <li class="site-nav-iteam"><a href="" >Примеры кода</a></li>
-                    <li class="site-nav-iteam"><a href="" >Образование и курсы</a></li>
-                    <li class="site-nav-iteam"><a href="" >Языки</a></li>
-                    <li class="site-nav-iteam"><a href="" >Видео</a></li>
-                    <li class="site-nav-iteam"><a href="" >Контакты</a></li>
+                    <li class="site-nav-iteam"><a href="#about_me">About me</a></li>
+                    <li class="site-nav-iteam"><a href="#skills" >Skills</a></li>
+                    <li class="site-nav-iteam"><a href="#code" >Code examples</a></li>
+                    <li class="site-nav-iteam"><a href="#education" >Education and courses</a></li>
+                    <li class="site-nav-iteam"><a href="#languages" >Languages</a></li>
+                    <li class="site-nav-iteam"><a href="#contacts" >Contacts</a></li>
                 </ul>
             </nav>
     </div>
+    </header>
+    <main>
     <div class="main">
-        <h1 class="name">Андрей Адаменко - Front-End Developer Resume</h1>
+        <h1 class="name">Andrew Adamenko - Front-End Developer Resume</h1>
         <section class="about-me container">
             <div class="my_photo-container">
-                <img class="my_photo" src="my_photo.jpg" alt="Моё фото">
-                <p class="hello-text">Привет, меня зовут <span class="name-text">Андрей</span> &#128516;</p>
+                <img class="my_photo" src="my_photo.jpg" alt="my_photo">
+                <p class="hello-text">Hello my name is <span class="name-text">Andrew</span> &#128516;</p>
             </div>
-            <h2 class="about_me">Обо мне</h2>
-            <p class="about_me_text">Мне 26 лет, учусь в RS school. По мне так очень сложно, но я стараюсь. До этого закончил университ БГУИР, по специальности "Эдектронно-оптические системы и технологии",сейчас увлёкся программированием, до этого занимался 3D моделированием и визуализацией. Ниже можно увидеть пример моей работы.</p>
-            <img class="portfolio" src="portfolio.jpg" alt="Моя работа">
+            <section class="line"></section>
+            <h2 class="about_me" id="about_me">About me</h2>
+            <p class="about_me_text">I am 26 years old, studying at RS school. It's very difficult for me, but I'm trying. Prior to that, he graduated from the BSUIR University, specializing in "Electronic-optical systems and technologies", now he is carried away by programming, before that he was engaged in 3D modeling and visualization. Below you can see an example of my work.</p>
+            <img class="portfolio" src="portfolio.jpg" alt="My work">
         </section>
-        <section class="skills"> 
-            <h2 class="my_skills">Мои навыки</h2>
+        <section class="line"></section>
+        <section class="skills" id="skills">
+            <h2 class="my_skills">Skills</h2>
             <ul class="skills-list">
                 <li class="skills-item">HTML</li>
                 <li class="skills-item">CSS</li>
@@ -42,37 +46,57 @@
                 <li class="skills-item">JS</li>
             </ul>
         </section>
-        <section class="code-examples">
-            <h2 class="code-examples-name">Примеры кода</h2>
+        <section class="line"></section>
+        <section class="code-examples" id="code">
+            <h2 class="code-examples-name">Code examples</h2>
             <pre class="code-examples-code">
                 <span class="doctype_html">&lt;!DOCTYPE html&gt;</span>
                 <span class="html_color">&lt;html&gt;
                 &lt;head&gt;
-                    &lt;title&gt;</span>Hello World&lt;/title&gt;
-                &lt;/head&gt;
+                    &lt;title&gt;</span><span class="html_color_wh">Hello World</span><span class="html_color">&lt;/title&gt;</span>
+                <span class="html_color">&lt;/head&gt;
                 &lt;body&gt;
                     &lt;div&gt;
-                    &lt;p&gt;"Hello World"&lt;/p&gt;
+                        &lt;p&gt;</span><span class="html_color_wh">"Hello World"</span><span class="html_color">&lt;/p&gt;
                     &lt;/div&gt;
                 &lt;/body&gt;
-                &lt;/html&gt;    
+                &lt;/html&gt;</span>    
             </pre>
+            <section class="line"></section>
         </section>
-        <section class="education"></section>
-        <section class="languages"></section>
-        <section class="video"></section>
-        <section class="contact-me"></section>
+        <section class="education" id="education">
+            <h2 class="education_title">Education and courses</h2>
+            <div>
+                <h2 class="university-name">University</h2>
+                <p class="university-BSUIR">BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIO ELECTRONICS</p>
+                <h2 class="courses-name">Courses</h2>
+                <a href="https://rs.school/js-stage0/" class="javascript">«JavaScript/Front-end. Stage 0»</a>
+            </div>
+        </section>
+        <section class="line"></section>
+        <section class="languages" id="languages">
+            <h2 class="languages-title">Languages</h2>
+            <ul class="langiages-list">
+                <li>English - Intermediate (B1)</li>
+                <li>Russian - Advanced (C2)</li>
+                <li>Belorussian - Pre-Advanced (C1)</li>
+            </ul>
+        </section>
+        <section class="line"></section>
+        <section class="contact-me" id="contacts">
+            <h2 class="contact-title">Contacts</h2>
+            <p class="phone_number">Phone number:<a href="tel:+375(29)2747124">+375(29)274-71-24</a></p>
+            <p class="email"><a href="mailto:adamvans@mail.ru">Email</a></p>
+        </section>
     </div>
-    <div class="footer">
-        <p> 2022 by Andrew Adamenko</p>
-        <ul class="footer__contact-links">
-            <li class="contact-links__item">
-                <a href="https://github.com/adamvans11" class="contact-links__link" target="_blank">Github</a>
-            </li>
-            <li class="contact-links__item">
-                <a href="https://rs.school/js/" class="contact-links__link" target="_blank">RS.school</a>
-            </li>
-        </ul>
-    </div>
+    </main>
+    <footer>
+        <section class="line"></section>
+        <div class="footer">
+            <a href="https://github.com/Adamvans11"><img class="git" src="git.png" alt="git"></a>
+            <a href="https://rs.school/js/"><img class="rs" src="rs_school_js.svg" alt="rs-img"></a>
+            <p> 2022 by Andrew Adamenko</p>
+        </div>
+    </footer>
 </body>
 </html>
