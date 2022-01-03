@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    
+    <div class="header">
+            <nav class="site-nav">
+                <ul>
+                    <li class="site-nav-iteam"><a href="#about_me">Обо мне</a></li>
+                    <li class="site-nav-iteam"><a href="#skills" >Навыки</a></li>
+                    <li class="site-nav-iteam"><a href="" >Примеры кода</a></li>
+                    <li class="site-nav-iteam"><a href="" >Образование и курсы</a></li>
+                    <li class="site-nav-iteam"><a href="" >Языки</a></li>
+                    <li class="site-nav-iteam"><a href="" >Видео</a></li>
+                    <li class="site-nav-iteam"><a href="" >Контакты</a></li>
+                </ul>
+            </nav>
+    </div>
+    <div class="main">
+        <h1 class="name">Андрей Адаменко - Front-End Developer Resume</h1>
+        <section class="about-me container">
+            <div class="my_photo-container">
+                <img class="my_photo" src="my_photo.jpg" alt="Моё фото">
+                <p class="hello-text">Привет, меня зовут <span class="name-text">Андрей</span> &#128516;</p>
+            </div>
+            <h2 class="about_me">Обо мне</h2>
+            <p class="about_me_text">Мне 26 лет, учусь в RS school. По мне так очень сложно, но я стараюсь. До этого закончил университ БГУИР, по специальности "Эдектронно-оптические системы и технологии",сейчас увлёкся программированием, до этого занимался 3D моделированием и визуализацией. Ниже можно увидеть пример моей работы.</p>
+            <img class="portfolio" src="portfolio.jpg" alt="Моя работа">
+        </section>
+        <section class="skills"> 
+            <h2 class="my_skills">Мои навыки</h2>
+            <ul class="skills-list">
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">Markdown</li>
+                <li class="skills-item">JS</li>
+            </ul>
+        </section>
+        <section class="code-examples">
+            <h2 class="code-examples-name">Примеры кода</h2>
+            <pre class="code-examples-code">
+                <span class="doctype_html">&lt;!DOCTYPE html&gt;</span>
+                <span class="html_color">&lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;</span>Hello World&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;div&gt;
+                    &lt;p&gt;"Hello World"&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;    
+            </pre>
+        </section>
+        <section class="education"></section>
+        <section class="languages"></section>
+        <section class="video"></section>
+        <section class="contact-me"></section>
+    </div>
+    <div class="footer">
+        <p> 2022 by Andrew Adamenko</p>
+        <ul class="footer__contact-links">
+            <li class="contact-links__item">
+                <a href="https://github.com/adamvans11" class="contact-links__link" target="_blank">Github</a>
+            </li>
+            <li class="contact-links__item">
+                <a href="https://rs.school/js/" class="contact-links__link" target="_blank">RS.school</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
