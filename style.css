@@ -1,0 +1,342 @@
+body{
+    background-color: #e9e9e9;
+    font-size: 20px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    margin: 0px;
+}
+
+.name{
+color: #e9e9e9;    
+text-align: center;
+border-radius: 20px;
+border-color: #000000;
+background-color:#9d999d;
+width: 60%;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header{
+    background-color: #9d999d;
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+.site-nav-iteam {
+    background: #9d999d;
+    display: inline;
+  }
+
+  .site-nav-iteam a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0 34px 0 30px;
+    font-size: 20px;
+  }
+
+  .site-nav-iteam a, .site-nav-iteam a:visited {color: #ffffff;}
+  .site-nav-iteam a.current, .site-nav-iteam a:hover{color: #000000;}
+
+.my_photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    border: 20px solid #9d999d;
+}
+
+.about_me{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 10%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello-text{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 30%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.about_me_text{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.portfolio{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    display: block;
+}
+
+.my_skills{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 10%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-item{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 10%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doctype_html{
+    color: rgb(15, 179, 0);
+    text-align: center;
+}
+
+.html_color{
+    color: red;
+}
+
+.code-examples-name{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.code-examples-code{   
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#414141;
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.html_color_wh{
+    color: #e9e9e9;
+}
+
+.education_title{
+    color: #e9e9e9;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.university-name{
+    color: #000000;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+ul{
+    padding: 0px;
+}
+
+.university-BSUIR{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.courses-name{
+    color: #000000;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.courses-item{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+}
+
+.languages-title{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.langiages-list{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.contact-title{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.phone_number{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.email{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000000;
+}
+
+.git{
+    width: 64px;
+}
+
+.rs{
+    color: #e9e9e9;
+    width: 124px;
+}
+
+.contact-me{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.languages{
+    margin-top: 80px;
+    margin-bottom: 80px;   
+}
+
+.line{
+    color: #ffffff;    
+    text-align: center;
+    border-radius: 10px;
+    background-color:#9d999d;
+    width: 80%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.javascript{
+    color: #ffffff;    
+    border-radius: 20px;
+    background-color:#9d999d;
+    width: 40%;
+    padding: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.phone_number{
+    color: #ffffff;
+}
